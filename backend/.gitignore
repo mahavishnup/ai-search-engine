@@ -1,0 +1,50 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment directories
+venv/
+.env/
+.venv/
+venv.bak/
+.env
+.env.production
+
+# Python egg-info
+*.egg-info/
+.eggs/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# MacOS Finder files
+.DS_Store
+
+# Log files
+*.log
+
+# FastAPI specific
+*.sqlite3
+*.db
+
+# Coverage reports
+.coverage
+coverage.xml
+*.coveragerc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test results
+nosetests.xml
+pytest.xml
+coverage/
+*.coveragerc
+.pytest_cache
+node_modules/
+alembic.ini
+notes.txt
