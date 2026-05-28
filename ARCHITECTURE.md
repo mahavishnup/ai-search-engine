@@ -122,7 +122,7 @@ The backend rigorously isolates concerns into concentric boundaries:
  │  - Business use cases, orchestration, workflow steps    │
  ├─────────────────────────────────────────────────────────┤
  │                     Domain Layer                        │
- │  - Relational models, core contracts, interfaces      │
+ │  - Relational models, core contracts, interfaces        │
  ├─────────────────────────────────────────────────────────┤
  │                  Infrastructure Layer                   │
  │  - FAISS index persistence, SQLAlchemy ORM repos, LLMs  │
